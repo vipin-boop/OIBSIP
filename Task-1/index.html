@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VPN Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f4f4f4;  
+      color: #0f2a44;
+    }
+    .page-wrapper {
+      padding: 40px 0;
+    }
+
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    }
+
+  
+    header {
+      background-color: #f6efe4;
+      background-image: url("images/hero-bg.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: contain;
+      text-align: center;
+      padding: 120px 40px 150px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #425466;
+    }
+
+    .btn {
+      background: #0f8f6e;
+      color: white;
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+   
+    section {
+      padding: 90px 80px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 70px;
+    }
+
+    section h2 {
+      font-size: 34px;
+      margin-bottom: 18px;
+    }
+
+    section p {
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+      color: #425466;
+    }
+
+    
+    .section-img {
+      width: 100%;
+      max-width: 420px;
+      margin: auto;
+      display: block;
+    }
+
+   
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 45px;
+      text-align: center;
+    }
+
+    .feature-box {
+      background: #f8f9fb;
+      padding: 35px;
+      border-radius: 22px;
+    }
+
+    .feature-icon {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 22px;
+      border-radius: 50%;
+      background: #e9f5f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+    }
+
+
+    .map {
+      background: #fff5f5;
+      text-align: center;
+    }
+
+    .map-img {
+      width: 100%;
+      max-width: 850px;
+      margin: 45px auto;
+      display: block;
+    }
+
+    .map-stats {
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+      margin-top: 30px;
+    }
+
+    .stat h3 {
+      font-size: 38px;
+    }
+
+    
+    @media (max-width: 900px) {
+      header h1 {
+        font-size: 36px;
+      }
+
+      section {
+        padding: 60px 24px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="page-wrapper">
+  <div class="container">
+
+  
+    <header>
+      <h1>The VPN that just works</h1>
+      <p>Go further with the #1 trusted leader in VPN</p>
+      <a href="#" class="btn">Get VPN</a>
+    </header>
+
+    
+    <section class="two-col">
+      <div>
+        <img src="images/secure-access.png" alt="Secure access worldwide" class="section-img">
+      </div>
+      <div>
+        <h2>Secure access, worldwide</h2>
+        <p>
+          Connect reliably from anywhere. Our global network of high-speed servers
+          ensures privacy, freedom, and complete online control.
+        </p>
+        <a href="#" class="btn">Get VPN</a>
+      </div>
+    </section>
+
+   
+    <section class="two-col">
+      <div>
+        <h2>One click to a safer internet</h2>
+        <p>
+          Going online doesn’t have to mean being exposed. One click protects your
+          data on public Wi-Fi, at home, or anywhere you browse.
+        </p>
+      </div>
+      <div>
+        <img src="images/one-click.png" alt="Safer internet" class="section-img">
+      </div>
+    </section>
+
+    
+    <section class="two-col">
+      <div>
+        <img src="images/devices.png" alt="VPN on every device" class="section-img">
+      </div>
+      <div>
+        <h2>Use VPN on every device</h2>
+        <p>
+          Phones, laptops, tablets, and more. One subscription keeps all your devices
+          secure wherever you go.
+        </p>
+        <a href="#" class="btn">Get VPN</a>
+      </div>
+    </section>
+
+    
+    <section>
+      <div class="features">
+        <div class="feature-box">
+          <div class="feature-icon">🔒</div>
+          <h3>Stronger data protection</h3>
+          <p>Industry-leading encryption protects your privacy.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🌍</div>
+          <h3>Works seamlessly everywhere</h3>
+          <p>Enjoy the internet without borders or limits.</p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h3>Lightning-fast connectivity</h3>
+          <p>Optimized servers for ultra-fast performance.</p>
+        </div>
+      </div>
+    </section>
+
+ 
+    <section class="map">
+      <h2>Ultra-fast servers around the globe</h2>
+
+      <img src="images/world-map.png" alt="VPN server locations" class="map-img">
+
+      <div class="map-stats">
+        <div class="stat">
+          <h3>160</h3>
+          <p>Locations</p>
+        </div>
+        <div class="stat">
+          <h3>94</h3>
+          <p>Countries</p>
+        </div>
+        <div class="stat">
+          <h3>∞</h3>
+          <p>Unlimited bandwidth</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+</body>
+</html>
